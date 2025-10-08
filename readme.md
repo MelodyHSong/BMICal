@@ -1,6 +1,5 @@
 
-# BMICal: BMI & TDEE Calculator (v1.1.0 RELEASE)
-
+# BMICal: BMI & TDEE Calculator 
 ## Overview
 
 **BMICal** is a multilingual Android application designed to help users quickly and accurately assess their fundamental body metrics and caloric needs. Developed using **Kotlin** and modern **Material Design 3**, this application provides reliable data to support user health goals.
