@@ -17,3 +17,5 @@
     <solid android:color="#000000"/>
     <size android:width="12dp" android:height="12dp"/>
 </shape>
+
+<!-- End of rounded_shape.xml -->

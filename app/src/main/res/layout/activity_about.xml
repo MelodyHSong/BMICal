@@ -138,3 +138,5 @@
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+<!-- End of activity_about.xml -->
