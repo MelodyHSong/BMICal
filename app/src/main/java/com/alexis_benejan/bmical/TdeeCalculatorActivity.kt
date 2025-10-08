@@ -10,9 +10,6 @@
 ☆
 */
 
-// Final Version: 1.1.0
-// Date: October 6, 2025
-
 package com.alexis_benejan.bmical
 
 import android.content.Context

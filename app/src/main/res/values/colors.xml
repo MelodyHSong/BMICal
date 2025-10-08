@@ -28,3 +28,5 @@
     <color name="colorOverweight">#FFB300</color>      <!-- Orange -->
     <color name="colorObese">#E53935</color>           <!-- Red -->
 </resources>
+
+<!-- end of colors.xml -->

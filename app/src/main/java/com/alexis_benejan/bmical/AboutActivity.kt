@@ -108,3 +108,5 @@ class AboutActivity : AppCompatActivity() {
         }
     }
 }
+
+// End of AboutActivity.kt

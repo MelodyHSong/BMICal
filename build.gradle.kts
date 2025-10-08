@@ -22,3 +22,6 @@ plugins {
 
 // NOTE: All dependencies are configured at the module level (:app)
 // This file can safely be empty aside from the plugins block, as recommended by Android Studio.
+
+
+//End of File
