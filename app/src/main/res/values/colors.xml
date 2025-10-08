@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Standard Material Colors (Softened for v1.1.0) -->
+    <color name="md_theme_primary">#00A8AA</color>
+    <color name="md_theme_secondary">#00668B</color>
+    <color name="md_theme_onSurface">#191C1E</color>
+    <color name="md_theme_onSurfaceVariant">#514443</color>
+    <color name="md_theme_surfaceContainerHigh">#E2E2E8</color>
+    <color name="md_theme_background">#F8F9FF</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- BMI Classification Colors (2 ptos.) -->
+    <!-- Used to color the result text and status indicator -->
+    <color name="colorUnderweight">#64B5F6</color>     <!-- Light Blue -->
+    <color name="colorNormal">#8BC34A</color>          <!-- Green -->
+    <color name="colorOverweight">#FFB300</color>      <!-- Orange -->
+    <color name="colorObese">#E53935</color>           <!-- Red -->
+</resources>

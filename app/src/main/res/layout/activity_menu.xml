@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+☆
+☆ Author: ☆ Alexis J. Benejan ☆
+☆ Language: XML (Android Layout)
+☆ File Name: activity_menu.xml
+☆ Date: October 6, 2025
+☆ Description: The main selection menu for the application (Version 1.1.0), featuring an animated background
+☆ and dedicated buttons for the Calculators and the new About screen.
+☆
+☆
+☆ // NOTE: This layout requires the Lottie dependency for the animated background.
+☆ // The animated background was not included due to time constraints, but the structure is in place for future implementation.
+☆
+-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context=".MenuActivity">
+
+    <!-- 1. Animated Background Logo (New for v1.1.0) -->
+    <!-- Requires 'com.airbnb.android:lottie' dependency and a JSON file in the 'assets' folder -->
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:alpha="0.2"
+        app:lottie_fileName="background_logo_animation.json"
+        app:lottie_autoPlay="false"
+        app:lottie_loop="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- App Title -->
+    <TextView
+        android:id="@+id/mainTitleTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name_full"
+        android:gravity="center"
+        android:textColor="?attr/colorPrimary"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Subtitle / Instruction -->
+    <TextView
+        android:id="@+id/subtitleTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/menu_subtitle"
+        android:textSize="18sp"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mainTitleTextView" />
+
+    <!-- Menu Button Container -->
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/subtitleTextView"
+        app:layout_constraintVertical_bias="0.3">
+
+        <!-- BMI Calculator Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/bmiCalculatorButton"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="16dp"
+            android:text="@string/menu_bmi_full"
+            android:textSize="20sp"
+            app:cornerRadius="12dp"
+            app:iconGravity="textStart"
+            tools:icon="@drawable/ic_launcher_foreground"/>
+
+        <!-- TDEE Calculator Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/tdeeCalculatorButton"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:paddingVertical="16dp"
+            android:text="@string/menu_tdee_full"
+            android:textSize="20sp"
+            app:cornerRadius="12dp"
+            app:iconGravity="textStart"
+            tools:icon="@drawable/ic_launcher_foreground"/>
+
+        <!-- About Button (New for v1.1.0) -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/aboutButton"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/menu_about_full"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

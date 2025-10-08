@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Application Names (2 ptos.) -->
+    <string name="app_name">BMICal</string>
+    <string name="app_name_full">BMI &amp; TDEE Calculator</string>
+
+    <!-- Menu Strings (New in v1.0.1b & v1.1.0) -->
+    <string name="menu_subtitle">Welcome, please select a tool to begin.</string>
+    <string name="menu_bmi_calculator">BMI Calculator</string>
+    <string name="menu_tdee_calculator">TDEE Calculator</string>
+    <string name="tdee_placeholder_message">Daily energy expenditure is estimated based on your metrics and activity level.</string>
+
+    <!-- NEW: Combined strings for menu buttons -->
+    <string name="menu_bmi_full">⚖️ BMI Calculator</string>
+    <string name="menu_tdee_full">🔥 TDEE Calculator</string>
+    <string name="menu_about">About the Developer</string>
+    <string name="menu_about_full">ⓘ About the Developer</string>
+
+    <!-- About Screen Strings (New in v1.1.0) -->
+    <string name="about_title">Developer Information</string>
+    <string name="about_version">Version %s</string>
+    <string name="about_developer_name">Alexis J. Benejan</string>
+    <string name="about_developer_role">Software Developer | UPR-Ponce</string>
+    <string name="about_ko_fi_label">Support via Ko-fi</string>
+    <string name="about_github_label">View Code on GitHub</string>
+
+    <!-- External Links (UPDATED WITH YOUR LINKS) -->
+    <string name="url_ko_fi">https://ko-fi.com/melodyhsong</string>
+    <string name="url_github">https://github.com/MelodyHSong</string>
+
+
+    <!-- TDEE New Labels -->
+    <string name="label_age">Age</string>
+    <string name="unit_age">years</string>
+    <string name="label_activity_level">Activity Level</string>
+
+    <!-- Activity Levels (Used by Spinner) -->
+    <string-array name="activity_levels">
+        <item>1. Sedentary (little or no exercise)</item>
+        <item>2. Lightly Active (light exercise/sports 1-3 days/week)</item>
+        <item>3. Moderately Active (moderate exercise/sports 3-5 days/week)</item>
+        <item>4. Very Active (hard exercise/sports 6-7 days/week)</item>
+        <item>5. Extremely Active (hard daily exercise/physical job)</item>
+    </string-array>
+
+    <!-- TDEE Result Strings -->
+    <string name="tdee_result_title">Your Estimated Daily Energy Needs</string>
+    <string name="tdee_result_bmr_label">Basal Metabolic Rate (BMR):</string>
+    <string name="tdee_result_tdee_label">Total Daily Energy Expenditure (TDEE):</string>
+    <string name="tdee_result_bmr">%1$s Calories/day</string>
+    <string name="tdee_result_tdee">%1$s Calories/day</string>
+
+
+    <!-- General Labels -->
+    <string name="metric">Metric</string>
+    <string name="english">English (US)</string>
+    <string name="button_calculate">Calculate</string>
+    <string name="error_input_required">Value is required</string>
+    <string name="error_invalid_value">Invalid value entered</string>
+
+    <!-- Input Labels (English/Metric) -->
+    <string name="label_unit_english">System: English (lbs/in)</string>
+    <string name="label_unit_metric">System: Metric (kg/cm)</string>
+
+    <!-- Height/Weight Input Labels -->
+    <string name="label_height_english">Feet</string>
+    <string name="label_inches">Inches</string>
+    <string name="label_height_metric">Height</string>
+    <string name="label_weight_english">Weight</string>
+    <string name="label_weight_metric">Weight</string>
+
+    <!-- Units -->
+    <string name="unit_height_english_feet">ft</string>
+    <string name="unit_height_english_inches">in</string>
+    <string name="unit_height_metric">cm</string>
+    <string name="unit_weight_english">lbs</string>
+    <string name="unit_weight_metric">kg</string>
+
+    <!-- Gender -->
+    <string name="label_gender">Gender</string>
+    <string-array name="gender_options">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <!-- Result Labels -->
+    <string name="result_title">Your BMI Result</string>
+    <string name="result_normal_range_label">Normal Weight Range</string>
+    <string name="result_normal_range">Normal weight for your height is between %1$s %3$s and %2$s %3$s.</string>
+
+    <!-- BMI Classifications -->
+    <string name="status_underweight">Underweight</string>
+    <string name="status_normal">Normal Weight</string>
+    <string name="status_overweight">Overweight</string>
+    <string name="status_obese">Obese</string>
+
+</resources>

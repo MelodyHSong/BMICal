@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+☆
+☆ Author: ☆ MelodyHSong ☆
+☆ Language: XML (Vector Drawable)
+☆ File Name: ic_launcher_background.xml
+☆ Date: October 6, 2025
+☆ Description: Defines a simple, solid Black Square (108x108) icon.
+☆
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108"
+    android:tint="#FFFFFF">
+
+    <!-- Solid Black Square Path Data: M=Move to, L=Line to, Z=Close path -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="nonZero"
+        android:pathData="M0,0 L108,0 L108,108 L0,108 Z"
+        android:strokeWidth="1"/>
+</vector>
