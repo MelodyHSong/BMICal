@@ -2,6 +2,7 @@
 ☆
 ☆ Author: ☆ Alexis J. Benejan ☆
 ☆ Language: Kotlin
+☆ Student ID: 843-12-0525
 ☆ File Name: AboutActivity.kt
 ☆ Date: October 6, 2025
 ☆ Description: Displays developer information (Alexis J. Benejan) and links (Ko-fi/GitHub).

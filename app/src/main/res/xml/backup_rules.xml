@@ -5,6 +5,19 @@
    Note: This file is ignored for devices older than API 31
    See https://developer.android.com/about/versions/12/backup-restore
 -->
+
+<!--
+☆
+☆ Author: ☆ Alexis J. Benejan ☆
+☆ Language: XML (Vector Drawable)
+☆ Student ID: 843-12-0525
+☆ File Name: backup_rules.xml
+☆ Date: October 6, 2025
+☆ Description: Unused backup rules file for future use.
+☆
+-->
+
+
 <full-backup-content>
     <!--
    <include domain="sharedpref" path="."/>

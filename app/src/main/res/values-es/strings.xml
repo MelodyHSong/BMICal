@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--
+☆
+☆ Author: ☆ Alexis J. Benejan ☆
+☆ Language: XML (Vector Drawable)
+☆ Student ID: 843-12-0525
+☆ File Name: strings.xml (Spanish - Spain)
+☆ Date: October 6, 2025
+☆ Description: Defines a simple, solid Black Square (108x108) icon.
+☆
+-->
+
 <resources>
 	<!-- Application Names -->
 	<string name="app_name">Calculadora IMC</string>

@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <!--
 ☆
 ☆ Author: ☆ Alexis J. Benejan ☆
 ☆ Language: XML (Android Layout)
+☆ Student ID: 843-12-0525
 ☆ File Name: activity_menu.xml
 ☆ Date: October 6, 2025
 ☆ Description: The main selection menu for the application (Version 1.1.0), featuring an animated background
 ☆ and dedicated buttons for the Calculators and the new About screen.
 ☆
 ☆
-☆ // NOTE: This layout requires the Lottie dependency for the animated background.
+☆ // NOTE: This layout used to require the Lottie dependency for the animated background.
 ☆ // The animated background was not included due to time constraints, but the structure is in place for future implementation.
 ☆
 -->
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -23,6 +26,7 @@
 
     <!-- 1. Animated Background Logo (New for v1.1.0) -->
     <!-- Requires 'com.airbnb.android:lottie' dependency and a JSON file in the 'assets' folder -->
+
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/animationView"
         android:layout_width="0dp"

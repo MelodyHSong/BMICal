@@ -2,13 +2,14 @@
 ☆
 ☆ Author: ☆ MelodyHSong ☆
 ☆ Language: Kotlin/Gradle
+☆ Student ID: 843-12-0525
 ☆ File Name: build.gradle.kts (Project Level)
 ☆ Date: October 5, 2025
 ☆ Description: Defines the plugins for the entire project hierarchy using standard IDs.
 ☆
 */
 
-// NOTE: This uses standard ID syntax to resolve the Unresolved reference errors.
+// NOTE: This uses standard ID syntax to resolve the Unresolved reference errors. I HATE THOSE ERRORS!!!
 
 plugins {
     // Android application plugin definition

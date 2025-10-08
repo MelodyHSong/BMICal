@@ -2,6 +2,7 @@
 ☆
 ☆ Author: ☆ Alexis J. Benejan ☆
 ☆ Language: Kotlin
+☆ Student ID: 843-12-0525
 ☆ File Name: BmiCalculatorActivity.kt
 ☆ Date: October 6, 2025
 ☆ Description: Contains the core logic for the BMI Calculator (refactored from MainActivity).

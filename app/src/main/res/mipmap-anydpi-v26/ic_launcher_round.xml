@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--
+☆
+☆ Author: ☆ Alexis J. Benejan ☆
+☆ Language: XML (Vector Drawable)
+☆ Student ID: 843-12-0525
+☆ File Name: ic_launcher_round.xml
+☆ Date: October 6, 2025
+☆ Description: Defines a simple, solid white Square and a solid black heart (108x108) icon.
+☆
+-->
+
 <adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
     <background android:drawable="@drawable/ic_launcher_background" />
     <foreground android:drawable="@drawable/ic_launcher_foreground" />

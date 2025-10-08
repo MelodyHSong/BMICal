@@ -2,6 +2,7 @@
 ☆
 ☆ Author: ☆ Alexis J. Benejan ☆
 ☆ Language: Kotlin
+☆ Student ID: 843-12-0525
 ☆ File Name: TdeeCalculatorActivity.kt
 ☆ Date: October 6, 2025
 ☆ Description: Logic for the Total Daily Energy Expenditure (TDEE) Calculator.

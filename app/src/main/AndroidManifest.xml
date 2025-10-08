@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--
+☆
+☆ Author: ☆ Alexis J. Benejan ☆
+☆ Language: XML (Manifest)
+☆ Student ID: 843-12-0525
+☆ File Name: AndroidManifest.xml
+☆ Date: October 6, 2025
+☆ Description: Defines the app's structure, activities, and permissions.
+☆
+-->
+
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 

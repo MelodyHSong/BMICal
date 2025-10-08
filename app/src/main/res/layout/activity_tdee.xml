@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <!--
 ☆
 ☆ Author: ☆ Alexis J. Benejan ☆
 ☆ Language: XML (Android Layout)
+☆ Student ID: 843-12-0525
 ☆ File Name: activity_tdee.xml
 ☆ Date: October 6, 2025
 ☆ Description: The layout for the Total Daily Energy Expenditure (TDEE) Calculator. It captures metrics
 ☆ like Age, Height, Weight, Gender (from BMI), and Activity Level to estimate daily caloric needs.
 ☆
 -->
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"

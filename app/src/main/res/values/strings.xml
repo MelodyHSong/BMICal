@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--
+☆
+☆ Author: ☆ Alexis J. Benejan ☆
+☆ Language: XML (Strings Resource)
+☆ Student ID: 843-12-0525
+☆ File Name: strings.xml (Default En-US)
+☆ Date: October 6, 2025
+☆ Description: String resources for the BMI & TDEE Calculator app.
+☆
+-->
+
 <resources>
     <!-- Application Names (2 ptos.) -->
     <string name="app_name">BMICal</string>

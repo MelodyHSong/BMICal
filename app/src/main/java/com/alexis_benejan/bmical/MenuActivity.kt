@@ -2,6 +2,7 @@
 ☆
 ☆ Author: ☆ Alexis J. Benejan ☆
 ☆ Language: Kotlin
+☆ Student ID: 843-12-0525
 ☆ File Name: MenuActivity.kt
 ☆ Date: October 6, 2025
 ☆ Description: The main launcher activity for Version 1.1.0, providing a menu for application features.

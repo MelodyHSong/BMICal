@@ -2,6 +2,7 @@
 ☆
 ☆ Author: ☆ MelodyHSong ☆
 ☆ Language: Kotlin/Gradle
+☆ Student ID: 843-12-0525
 ☆ File Name: build.gradle.kts (Module: app)
 ☆ Date: October 6, 2025
 ☆ Description: Configuration for the BMI Calculator module.
